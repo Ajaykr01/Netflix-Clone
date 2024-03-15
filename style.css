@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: black;
+}
+
+.main {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(black, transparent, black);
+}
+
+.back {
+  background-image: url("./Images/banner.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -3;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+}
+.btns {
+  width: 45vw;
+  text-align: end;
+}
+.btns span {
+  color: white;
+  position: relative;
+  top: 7px;
+  left: 30px;
+}
+.btns select {
+  height: 35px;
+  width: 130px;
+  background-color: transparent;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1rem;
+}
+select option {
+  background: white;
+  color: black;
+}
+#sign-in {
+  height: 37px;
+  width: 70px;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.hero {
+  display: flex;
+  color: rgb(245, 239, 239);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+#f-span,
+#s-span {
+  font-size: 60px;
+  font-weight: 900;
+}
+#t-span {
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 15px;
+}
+#fth-span {
+  font-size: 17px;
+  font-weight: 600;
+  padding-top: 20px;
+}
+.started {
+  width: 55vw;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.started input {
+  width: 30vw;
+  height: 50px;
+  padding-left: 10px;
+  background: transparent;
+  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.started button {
+  height: 50px;
+  width: 24vh;
+  background: red;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.tv-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: black;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+.tv-section video {
+  position: absolute;
+  right: 210px;
+  top: 94px;
+  width: 30%;
+  z-index: -2;
+}
+.tv img {
+  width: 40vw;
+}
+.tv-title h1 {
+  font-size: 3rem;
+}
+.tv-title p {
+  padding-top: 10px;
+}
+.mobile-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: black;
+  color: white;
+}
+.mobile-title h1 {
+  font-size: 3rem;
+}
+.mobile-title > :nth-child(2) {
+  font-size: 3rem;
+}
+.mobile-title p {
+  font-size: 20px;
+}
+.tv2-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: black;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+.tv2-section video {
+  position: absolute;
+  right: 240px;
+  top: 40px;
+  width: 26%;
+  z-index: -2;
+}
+.tv2-title h1 {
+  font-size: 3rem;
+}
+.tv2-title p {
+  padding-top: 10px;
+}
+.child-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: black;
+  color: white;
+}
+.child-title h1 {
+  font-size: 3rem;
+}
+.child-title p {
+  padding-top: 10px;
+}
+.qns-section h1 {
+  text-align: center;
+  color: white;
+  padding-top: 30px;
+  font-weight: 800;
+}
+summary {
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+}
+#f-box,
+#s-box,
+#t-box,
+#frth-box,
+#fth-box,
+#six-box {
+  background: blue;
+  padding: 10px 10px 10px;
+}
+.qns-section p {
+  color: white;
+  padding-top: 10px;
+  font-size: 1.5rem;
+}
+.qns-box {
+  display: flex;
+  width: 60%;
+  margin: auto;
+  padding-top: 40px;
+  flex-direction: column;
+  gap: 40px;
+}
+footer p {
+  color: white;
+  padding: 50px 200px;
+}
+footer u {
+  cursor: pointer;
+}
+.links {
+  display: flex;
+  justify-content: space-evenly;
+}
+.links div {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.links a {
+  color: white;
+}
+h3 {
+  color: white;
+  padding: 40px 200px;
+}
